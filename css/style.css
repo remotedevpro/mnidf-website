@@ -677,7 +677,7 @@ button:hover {
 
 .core-values {
   padding: 80px 20px;
-  background: linear-gradient(to right, #f9fbfd, #eef4f8);
+  background: linear-gradient(to right, #025511, #021d70);
   text-align: center;
 }
 
@@ -690,7 +690,7 @@ button:hover {
 .section-subtitle {
   max-width: 700px;
   margin: 0 auto 40px;
-  color: #555;
+  color:#ccc;
   font-size: 1.1rem;
 }
 
@@ -700,6 +700,22 @@ button:hover {
   display: block;
   animation: float 4s ease-in-out infinite;
 }
+
+.value-card:hover {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+.value-card {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.value-card.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.6s ease;
+}
+
+
 
 @keyframes float {
   0%,100% { transform: translateY(0); }
