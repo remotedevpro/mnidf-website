@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         speed: 800,
 
         autoplay: {
-            delay: 5000,
+            delay: 10000,
             disableOnInteraction: false,
         },
 
